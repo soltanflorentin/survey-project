@@ -1,0 +1,15 @@
+#div{
+    margin-left: 20%;
+    margin-right: 20%;
+    background: lightgray;
+    display: grid;
+}
+#title, #description{
+    place-self: center;
+}
+button{
+    margin-left: 240px;;
+}
+#flo1, #flo2{
+    margin-right: 20px;
+}

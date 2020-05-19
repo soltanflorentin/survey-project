@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>survey-project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div id="div">
+   <h1 id="title">Survey Page</h1>
+    <p id="description">Please fill up all the answers</p>
+    <form id="survey-form">
+        <div>
+            <label id="name-label" for="name" placeholder="Name">Name</label>
+            <br>
+            <input type="text" id="name">           
+        </div>
+        <br>
+        <div>
+            <label id="email-label" for="email" placeholder="Email">Email</label>
+            <br>
+            <input type="email" id="email">         
+        </div>
+        <br>
+        <div>
+            <label id="number-label" for="number">Age</label>
+            <br>
+            <input type="number" id="number" min="18" max="66" placeholder="Age">          
+        </div>
+        <br>
+        <label for="dropdown">Choose your option</label>
+        <br>
+        <select id="dropdown">
+            <option value="manager">Manager</option>
+            <option value="secretary">Secretary</option>
+            <option value="driver">Driver</option>
+            <option value="administrator">Administrator</option>
+        </select>
+        <br><br>
+        <label for="radio">When you are ready for the job?</label>
+        <div id="radio">
+            <label for="flo1">Immediatly</label>
+            <input id="flo1" type="radio" name="flo">
+            <label for="flo2">In a week</label>
+            <input id="flo2" type="radio" name="flo">
+            <label for="flo3">In a month</label>
+            <input id="flo3" type="radio" name="flo">
+        </div>
+        <br>
+        <label for="checkBox">Hobby</label>
+        <div id="checkBox">
+            <input type="checkbox" value="reading" id="box1">
+            <label for="box1">Reading</label>
+            <input type="checkbox" value="traveling" id="box2">
+            <label for="box2">Traveling</label>
+            <input type="checkbox" value="sport" id="box3">
+            <label for="box3">Sport</label>
+            <input type="checkbox" value="walking" id="box4">
+            <label for="box4">Walking</label>
+        </div>
+        <label for="textarea">Add some comments</label>
+        <textarea id="textarea" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
